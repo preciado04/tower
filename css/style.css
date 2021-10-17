@@ -1,0 +1,39 @@
+body {
+  color: green;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2;
+  text-align: center;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  border: 1px solid green;
+  padding: 6px 12px;
+}
+
+input + input {
+  margin-left: 5px;
+}
+
+.cta,
+input[type="submit"] {
+  display: inline-block;
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta:hover,
+input[type="submit"]:hover {
+  color: green;
+  background-color: white;
+}
+
+.cta {
+  text-align: center;
+}
